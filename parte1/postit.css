@@ -45,6 +45,13 @@ h1 {
   box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px, inset 0px -57px 51px -32px rgba(13, 13, 13, 0.38);
 }
 
+.postit:hover {
+  transform: rotate(0deg);
+  transform: scale(1.2);
+  transition: 0.7s;
+  z-index: 1;
+}
+
 .rotate-right-3 {
   transform: rotate(3deg);
 }
