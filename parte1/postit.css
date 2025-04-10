@@ -1,0 +1,55 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #f8fafd;
+  font-family: Gloria Hallelujah, sans-serif;
+  display: flex;
+  justify-content: center;
+}
+
+h1 {
+  font-size: 1.5rem;
+  font-weight: 600;
+}
+.postit-board {
+  margin-top: 10rem;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 50rem;
+}
+.postit-first-row,
+.postit-second-row {
+  width: 50rem;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.postit-second-row {
+  margin-top: 2rem;
+}
+
+.postit {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  width: 10rem;
+  height: 10rem;
+}
+
+.yellow {
+  background-color: #f8f8c6;
+}
+.green {
+  background-color: #c6f6c9;
+}
+.blue {
+  background-color: #c3c4ee;
+}
