@@ -5,7 +5,7 @@
 }
 
 body {
-  background-color: #f8fafd;
+  background-color: #666666;
   font-family: Gloria Hallelujah, sans-serif;
   display: flex;
   justify-content: center;
@@ -42,6 +42,23 @@ h1 {
   gap: 10px;
   width: 10rem;
   height: 10rem;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px, inset 0px -57px 51px -32px rgba(13, 13, 13, 0.38);
+}
+
+.rotate-right-3 {
+  transform: rotate(3deg);
+}
+.rotate-right-5 {
+  transform: rotate(5deg);
+}
+.rotate-right-8 {
+  transform: rotate(8deg);
+}
+.rotate-left-8 {
+  transform: rotate(-8deg);
+}
+.rotate-left-neg5 {
+  transform: rotate(-5deg);
 }
 
 .yellow {
